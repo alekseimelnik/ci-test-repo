@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jan 16 02:34:04 GMT 2024","Tue Jan 16 02:34:09 GMT 2024","4780","","Tests.Test1","","Tests.Test1","testStatusCode","testStatusCode()",""
