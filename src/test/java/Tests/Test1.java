@@ -11,7 +11,8 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.is;
 
 public class Test1 {
-    public static void main(String[] args) {
+    @Test
+    void testStatusCode() {
         baseURI = "https://championat.com"; // Замените на URL желаемого сайта
         given()
                 .when()
@@ -19,5 +20,4 @@ public class Test1 {
                 .then()
                 .assertThat()
                 .statusCode(200); // Проверка на статус код 200
-    }
 }
