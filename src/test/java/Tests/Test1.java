@@ -20,4 +20,5 @@ public class Test1 {
                 .then()
                 .assertThat()
                 .statusCode(200); // Проверка на статус код 200
+    }
 }
